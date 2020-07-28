@@ -1,5 +1,9 @@
 *** WORKING PAPER ***
 
-# BluntPriceIndex
+# The Blunt Index
 
-My research identifies the street blocks with the highest/lowest prices for a blunt along a neighborhood corridor. I estimate the probability a shop would price a blunt above the median price.  I use a multinomial logit model ("logistic regression") to estimate how much a blunt price is influenced by location, social forces, etc.  I am curious how the price of a blunt changes along a city street.
+I am curious how the price of a blunt changes along a city street. My research looks for the street blocks with the highest & lowest prices for a blunt in Chicago's neighborhoods. I estimate the probability a store would price a blunt above the median price using a multinomial logit model ("logistic regression") to estimate how much price is influenced by location, social forces, etc.  
+
+# Data
+
+# References 
