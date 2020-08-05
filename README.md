@@ -2,7 +2,7 @@
 
 # INTRODUCTION
 
-* This repository contains the data for the Blunt index, and code for its calculations. My research collects blunt prices from more than 100 stores during five to seven days intervals. I then estimate the probability a store would price a blunt above the median area price using logistic regression and 5000+ labeled examples.  From this I create the adjusted Blunt index, that's relative to the income per person in that area. This price index signals where purchasing power is changing across a city.
+* This repository contains the data for the Blunt index, and code for its calculations. My research collects blunt prices from more than 200 corner stores during ten to fourteen day intervals. I then estimate the probability a store would price a blunt above the city median using multinomial logistic regression, select outcome measures and response variables.  From this I create the adjusted Blunt index to interpret coefficients as pricing probabilities. This index signals where purchasing power is strongest/weakest across a city.
 
 # SOURCE DATA
 
@@ -16,14 +16,12 @@ Variables
 * street_block
 * census_tract
 * zip_code
-* BLUNT_adjusted - Adjusted index, relative to the income per person in area
+* BLUNT_adjusted - Adjusted index
 
 # CALCULATING THE BLUNT INDEX
 
-* The code is provided as a Jupyter Notebook.  Code is written in Python.  To run the notebook requires a little setup.
-
 # DISCUSSION
 
-* Based on results I argue that the relative ease and low cost of data collection could serve as a way of keep track of changes in city purchasing power across neighborhoods, as they happen, rather than in unknown intervals.  
+* Based on experiments I share why the ease and low cost of the Blunt index could help keep track of changes in purchasing power across neighborhoods, as they happen, rather than in unknown intervals.  
 
 # BIBLIOGRAPHY
