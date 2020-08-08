@@ -2,26 +2,29 @@
 
 # INTRODUCTION
 
-* This repository contains the data for the Blunt index, and code for its calculations. My research collects blunt prices from more than 200 corner stores during ten to fourteen day intervals. I then estimate the probability a store would price a blunt above the city median using multinomial logistic regression, select outcome measures and response variables.  From this I create the adjusted Blunt index to interpret coefficients as pricing probabilities. This index signals where purchasing power is strongest/weakest across a city.
+* This repository contains the data for the Blunt index, and code for its calculations. The Blunt index could be a helpful supplement to official city figures.
 
-# SOURCE DATA
+# DATA & CALCULATIONS
 
-* Price data comes from comes from commerce corridors in Chicago's neighborhoods; socio-economic data comes from Social Explorer reports.
+* My research collects blunt prices (32 oz gatorade prices, etc.) from more than 200 corner stores during 10 to 14 day intervals. I then estimate the probability a store would price a blunt above the median using multinomial logistic regression, response variables and select outcome measures.  From there I create the adjusted Blunt index to interpret coefficients as pricing probabilities, which signals where purchasing power is strongest/weakest across a city based on location.
 
-# OUTPUT DATA
+# OUTPUT DATA 
 
-Variables
 * date
 * local_price
 * street_block
 * census_tract
-* zip_code
+* city_ward
 * BLUNT_adjusted - Adjusted index
 
-# CALCULATING THE BLUNT INDEX
+# EXPERIMENTS & TRIALS
+
+# WEB APP 
+
+* Form a digital bridge between different corner store customers via news graphics, stories, etc.
 
 # DISCUSSION
 
-* Based on experiments I share why the ease and low cost of the Blunt index could help keep track of changes in purchasing power across neighborhoods, as they happen, rather than in unknown intervals.  
+* Chicago will grow, we should better understand its flow. Hanging out around corner stores could show us fresh ways to gauge activity in smaller pockets of the economy. The Blunt index could be a helpful supplement to official city figures.  The frequency of my data collection could help city officials boost the timeliness and quality of their own data.  
 
 # BIBLIOGRAPHY
