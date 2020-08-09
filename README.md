@@ -2,11 +2,11 @@
 
 # INTRODUCTION
 
-* This repository contains the price data for the Blunt-Coffee index, and code for its calculations. 
+* This repository contains the price data for the Blunt-Coffee index, code for its calculations and a newsy web app. 
 
 # DATA & CALCULATIONS
 
-* My research collects blunt and coffee prices from more than 200 neighborhood shops during 10 to 14 day intervals. I then estimate the probability a shop would price a blunt  and coffee above the city median using multiple logistic regression.  Next I calculate the adjusted Blunt index to interpret select coefficients as pricing probabilities (i.e.  signals where the odds of the price are ___ times the odds of the city median)
+* My research collects blunt and coffee prices from more than 200 neighborhood shops during 10 to 14 day intervals. I then estimate the probability a shop would price a blunt  and coffee above the city median using multiple logistic regression.  Next I calculate the BLUNTCOFFEE_adjusted index to interpret select coefficients as pricing probabilities (i.e.  signals where the odds of the price are ___ times the odds of the city median)
 
 # OUTPUT DATA 
 
