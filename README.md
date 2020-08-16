@@ -6,7 +6,7 @@
 
 # DATA COLLECTION & CALCULATIONS
 
-* My research collects blunt and coffee prices, dates, neighborhood of collected prices and ethnographic field notes from 200+ neighborhood shops during 10 to 14 day intervals. I then learn how each of all this data relates to various outcomes. My goal is to estimate the probability a shop would price a blunt and coffee above the city median.  
+* My research collects blunt/coffee prices, dates and locations from 200+ neighborhood shops during 10 to 14 day intervals. I then teach a system to learn how this data correlates with various outcomes. My goal is to estimate the probability a shop would price a blunt/coffee above the city and/or neighborhood median.  
 
 # INPUT DATA 
 
