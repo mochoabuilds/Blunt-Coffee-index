@@ -2,11 +2,11 @@
 
 # INTRODUCTION
 
-* This repository contains the price data, code for calculations and a web app. 
+* This repository contains price data, calculations and a newsy web app. 
 
 # DATA COLLECTION & CALCULATIONS
 
-* My research collects blunt/coffee prices, dates and locations from 200+ neighborhood shops during 10 to 14 day intervals. I then teach a system to learn how this data correlates with various outcomes. My goal is to estimate the probability a shop would price a blunt/coffee above the city and/or neighborhood median.  
+* My research collects blunt/coffee prices, dates and locations from 200+ neighborhood shops during 10 to 14 day intervals. I then teach a system to learn how this data correlates with various outcomes. Logistic regression calculates the log-odds of a categorical response being "true".  The goal is to show how increases/decreases in price are associated with change in the log-odds of a variable.
 
 # INPUT DATA 
 
@@ -14,7 +14,7 @@
 * blunt_price
 * coffee_price
 * street_block
-* ethnographic field notes
+* tbd
 
 # OUTPUT DATA
 
