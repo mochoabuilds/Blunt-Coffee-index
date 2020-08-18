@@ -2,23 +2,22 @@
 
 # INTRODUCTION
 
-* This repository contains price data, calculations and a newsy web app. 
+* This repository contains coffee/blunt prices, code for multiple logisitc regression and a web app.  
 
 # DATA COLLECTION & CALCULATIONS
 
-* My research collects blunt/coffee prices, dates and locations from 200+ neighborhood shops during 10 to 14 day intervals. I then teach a system to learn how this data correlates with various outcomes. Logistic regression calculates the log-odds of a categorical response being "true".  The goal is to show how increases/decreases in price are associated with change in the log-odds of a variable.
+* My research collects blunt/coffee prices, dates and locations from 200+ neighborhood shops during 10 to 14 day intervals. I then teach a system to learn how this data correlates with various outcomes. I predict whether a shopper is overpaying for a coffee/blunt, on the basis of annual income, neighborhood property values and employment status. The estimated coefficients of the logistic regression predict the probability of overpaying for a coffee/blunt belongs to a particular category.   
 
 # INPUT DATA 
 
 * date
 * blunt_price
 * coffee_price
-* street_block
-* tbd
+* annual_income
+* property_values
+* employment_status
 
 # OUTPUT DATA
-
-* BLUNTCOFFEE_adjusted - Adjusted odds index, etc.
 
 # TRIALS
 
@@ -32,7 +31,7 @@
 
 # REFERENCES
 
-* The Great Good Place by Roy Oldenberg (1989)
-* Business Location Decisions Notes from Geoffrey J.D. Hewings, University of Illinois (Fall 2014)
-* Statisical Analysis Notes from Ellen Fireman, University of Illinois (Fall 2015)
+* An Introduction to Statistical Learning with Applications in R by Gareth James et la. (2013)
+* Business Location Decisions Class Notes from Geoffrey J.D. Hewings, University of Illinois (Fall 2014)
+* Statisical Analysis Class Notes from Ellen Fireman, University of Illinois (Fall 2015)
 * The Web Developer Bootcamp by Colt Steele 
