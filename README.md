@@ -1,31 +1,31 @@
 *** WORKING PAPER ***
 
-# INTRODUCTION
+# WHAT IS IT?
 
-* This repository contains coffee/blunt prices, code for multiple logisitc regression and a web app.  
+* This is an ambitious field experiment that estimates what the probability is of overpaying for a coffee/blunt along commercial corridors on Chicago's West and North sides. The timeliness and quality of the Blunt-Coffee index could be a helpful supplement to official city figures.
 
-# DATA COLLECTION & CALCULATIONS
+# DATA COLLECTION
 
-* My research collects dates, locations and blunt/coffee prices from 200+ neighborhood shops during 10 to 14 day intervals. Next, I estimate what the probability is of overpaying for a coffee/blunt in a neighborhood with property values and annual household incomes of X.  Using a bit of rearrangement and the GLM function in R I estimate the regression coefficients with the maximum likelihood function. The goal is to identify the strength and direction of significant risk factors for overpayment.
+* I collect blunt/coffee prices, dates and locations from 200+ neighborhood shops during 10 to 14 day intervals. 
 
-# INPUT DATA 
+# DATA PREP
 
-* date (MM/DD/YYYY)
-* street_block
-* blunt_price
-* coffee_price
-* property_values
-* annual_income
+* STEP 1 RawData - unformatted spreadsheet with hand collected prices 
+* STEP 2 TidyDataSet - script takes raw data as input and produces tidy data as output
+* STEP 3 Description - describe each variable and values in tidy data set
+* STEP 4 ReproducibilityRecipe - set up calculations in a way that is easy for reproducibility
 
-# TRIALS
+# CALCULATIONS
+
+* I estimate what the probability is of overpaying for a coffee/blunt along commercial corridors on Chicago's West and North sides with property values and annual household incomes of X.  Then using a bit of rearrangement and the GLM function in R(programming language) I estimate the regression coefficients with the maximum likelihood function to identify the strength and direction of significant risk factors for overpayment.
+
+# EVALUATION OF DATA
 
 # DISCUSSION
 
-* My goal is direct an ambitious field experiment that addresses the urban problem of predatory pricing. The timeliness and quality of the Blunt-Coffee index could be a helpful supplement to official city figures.
-
 # WEB APP
 
-* Build a digital bridge that integrates all this data to educate the public on the purchasing power of their dollar.
+* I build a digital bridge that integrates all this data to educate Chicagoans on the purchasing power of their dollar.
 
 # REFERENCES
 
