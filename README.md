@@ -6,7 +6,7 @@
 
 # DATA COLLECTION
 
-* I collect blunt/coffee prices, dates and locations from 200+ neighborhood shops during 10 to 14 day intervals. 
+* I hand collect blunt/coffee prices, dates and locations from 200+ neighborhood shops during 10 to 14 day intervals. 
 
 # DATA PREP
 
@@ -17,7 +17,8 @@
 
 # CALCULATIONS
 
-* I estimate what the probability is of overpaying for a coffee/blunt along commercial corridors on Chicago's West and North sides with property values and annual household incomes of X.  Then using a bit of rearrangement and the GLM function in R(programming language) I estimate the regression coefficients with the maximum likelihood function to identify the strength and direction of significant risk factors for overpayment.
+* I estimate what the probability is of overpaying for a coffee/blunt along commercial corridors on Chicago's West and North sides with shop-to-population ratios, annual household incomes and property values of X.  Then using a bit of rearrangement and the GLM function in R(programming language) I estimate the regression coefficients with the maximum likelihood function to identify the strength and direction of significant risk factors for overpayment.
+* Additionally, I compute a 95% confidence intervals for the slopes and odds ratios. That means I'm 95% sure that the odds for a chosen commercial corridor overpaying versus the city average in this model are between ___ and ___ greater than the odds for other corridor overpaying.
 
 # EVALUATION OF DATA
 
