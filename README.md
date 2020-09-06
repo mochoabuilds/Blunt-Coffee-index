@@ -1,8 +1,15 @@
 *** WORKING PAPER ***
 
-# WHAT IS IT?
+The Neighborhood Dollar Index
+By Michael Valentino Ochoa
 
-* This is an ambitious field experiment that estimates what the probability is of overpaying for a coffee/blunt along commercial corridors on Chicago's West and North sides. The timeliness and quality of the Blunt-Coffee index could be a helpful supplement to official city figures.
+# INTRODUCTION
+
+* Chicago is a city of neighborhoods.  This paper explores how factors such a shop-to-population ratios, annual household incomes and property values are associated with neighborhood purchasing power.  It's no suprise people's neighborhoods impact their purchasing power.  Here's a look at the city's extremes.
+
+# WHAT AM I DOING?
+
+* This is an ambitious field experiment that estimates what the probability is of overpaying for a coffee/blunt in neighborhoods on Chicago's West and North sides. The timeliness and quality of the Blunt-Coffee index could be a helpful supplement to official city figures.
 
 # DATA COLLECTION
 
@@ -17,8 +24,8 @@
 
 # CALCULATIONS
 
-* I estimate what the probability is of overpaying for a coffee/blunt along commercial corridors on Chicago's West and North sides with shop-to-population ratios, annual household incomes and property values of X.  Then using a bit of rearrangement and the GLM function in R(programming language) I estimate the regression coefficients with the maximum likelihood function to identify the strength and direction of significant risk factors for overpayment.
-* Additionally, I compute a 95% confidence intervals for the slopes and odds ratios. That means I'm 95% sure that the odds for a chosen commercial corridor overpaying versus the city average in this model are between ___ and ___ greater than the odds for other corridor overpaying.
+* I estimate what the probability is of overpaying for a coffee/blunt in neighborhoods on Chicago's West and North sides.  Then using a bit of rearrangement and the GLM function in R(programming language) I estimate the regression coefficients with the maximum likelihood function to identify the strength and direction of significant risk factors for overpayment.
+* Additionally, I compute a 95% confidence intervals for the slopes / odds ratios. TLDR: that means I'm 95% sure that the odds for a chosen commercial corridor overpaying versus the city average in this model are between ___ and ___ greater than the odds for other corridor overpaying.
 
 # EVALUATION OF DATA
 
