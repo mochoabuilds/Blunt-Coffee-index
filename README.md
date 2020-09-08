@@ -6,11 +6,11 @@
 
 # WHAT IS IT?
 
-* The Corner Store Index uses the price of select goods to compare the values of ones dollar across the city.  It's a rough calculation that shows how social and environmental factors associate with neighborhood purchasing power.  Here's a look at the city's extremes.
+* The Corner Store Index uses the price of select goods to compare the values of ones dollar across the city.  It's a rough calculation that shows how social and environmental factors associate with neighborhood purchasing power.  It's a look at the city's extremes.
 
 # WHY AM I DOING THIS?
 
-* This is an ambitious field experiment that estimates what the probability is of overpaying for select goods in corner stores on Chicago's West and North sides. The timeliness and quality of the Blunt-Coffee index could be a helpful supplement to official city figures.
+* This is an ambitious field experiment that estimates what the probability is of overpaying for select goods in corner stores on Chicago's West and North sides. The timeliness and quality of the Corner Store Index could be a helpful supplement to official city figures.
 
 # DATA COLLECTION
 
@@ -27,7 +27,7 @@
 
 * I estimate what the probability is of overpaying for a select goods in neighborhood corner stores on Chicago's West and North sides.  Using a bit of rearrangement and the GLM function in R(programming language) I estimate the regression coefficients with the maximum likelihood function to identify the strength and direction of significant risk factors for overpayment. I also compute a 95% confidence intervals for the slopes / odds ratios. TLDR: I'm 95% sure that the odds a location is overpaying versus the city average are between ___ and ___ greater than the odds for other locations are overpaying
 
-# EVALUATION OF DATA
+# DATA EVALUATIONS
 
 # DISCUSSION
 
