@@ -1,19 +1,20 @@
 *** WORKING PAPER ***
 
-The Neighborhood Dollar Index
-By Michael Valentino Ochoa
-
 # INTRODUCTION
 
-* Chicago is a city of neighborhoods.  This paper explores how social and environmental factors associate with neighborhood purchasing power.  Here's a look at the city's extremes.
+* Chicago may be a single market, but its products do not have single prices. Some price differences are inevitable.  Goods downtown will cost more than ones in neighborhoods on the city's edge. My question is: how much do prices vary across the city?  
 
-# WHAT AM I DOING?  WHY?
+# WHAT IS IT?
 
-* This is an ambitious field experiment that estimates what the probability is of overpaying for a coffee/blunt in neighborhoods on Chicago's West and North sides. The timeliness and quality of the Blunt-Coffee index could be a helpful supplement to official city figures.
+* The Corner Store Index uses the price of select goods to compare the values of ones dollar across the city.  It's a rough calculation that shows how social and environmental factors associate with neighborhood purchasing power.  Here's a look at the city's extremes.
+
+# WHY AM I DOING THIS?
+
+* This is an ambitious field experiment that estimates what the probability is of overpaying for select goods in corner stores on Chicago's West and North sides. The timeliness and quality of the Blunt-Coffee index could be a helpful supplement to official city figures.
 
 # DATA COLLECTION
 
-* I hand collect blunt/coffee prices, dates and locations from 200+ neighborhood shops during 10 to 14 day intervals. 
+* I hand collect prices for select goods, dates and locations from 200+ neighborhood shops during 10 to 14 day intervals. 
 
 # DATA PREP
 
@@ -24,8 +25,7 @@ By Michael Valentino Ochoa
 
 # CALCULATIONS
 
-* I estimate what the probability is of overpaying for a coffee/blunt in neighborhoods on Chicago's West and North sides.  Then using a bit of rearrangement and the GLM function in R(programming language) I estimate the regression coefficients with the maximum likelihood function to identify the strength and direction of significant risk factors for overpayment.
-* Additionally, I compute a 95% confidence intervals for the slopes / odds ratios. TLDR: that means I'm 95% sure that the odds a chosen neighborhood shop is overpaying versus the city average are between ___ and ___ greater than the odds for other neighborhoods shops overpaying
+* I estimate what the probability is of overpaying for a select goods in neighborhood corner stores on Chicago's West and North sides.  Using a bit of rearrangement and the GLM function in R(programming language) I estimate the regression coefficients with the maximum likelihood function to identify the strength and direction of significant risk factors for overpayment. I also compute a 95% confidence intervals for the slopes / odds ratios. TLDR: I'm 95% sure that the odds a location is overpaying versus the city average are between ___ and ___ greater than the odds for other locations are overpaying
 
 # EVALUATION OF DATA
 
@@ -33,7 +33,7 @@ By Michael Valentino Ochoa
 
 # WEB APP
 
-* I build a digital bridge that integrates all this data to educate Chicagoans on the purchasing power of their dollar.
+* I integrate all this data to educate Chicagoans on the value of their dollar across the city.
 
 # REFERENCES
 
