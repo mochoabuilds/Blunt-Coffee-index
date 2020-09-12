@@ -12,28 +12,28 @@
 
 * This is an ambitious field experiment that estimates what the probability is of overpaying for select goods in corner stores on Chicago's West and North sides. The timeliness and quality of the Corner Store Index could be a helpful supplement to official city figures.
 
-# DATA COLLECTION
+# WEB APP
+
+* Generate color gradient map with a searchable tile-based interface of data sorted by luminance, from least to most bright (to represent the value of a dollar across the city) 
+
+## DATA COLLECTION
 
 * I hand collect prices for select goods, dates and locations from 200+ neighborhood shops during 10 to 14 day intervals. 
 
-# DATA PREP
+## DATA PREP
 
 * STEP 1 RawData - unformatted spreadsheet with hand collected prices 
 * STEP 2 TidyDataSet - script takes raw data as input and produces tidy data as output
 * STEP 3 Description - describe each variable and values in tidy data set
 * STEP 4 ReproducibilityRecipe - set up calculations in a way that is easy for reproducibility
 
-# CALCULATIONS
+## CALCULATIONS
 
 * I estimate what the probability is of overpaying for a select goods in neighborhood corner stores on Chicago's West and North sides.  Using a bit of rearrangement and the GLM function in R(programming language) I estimate the regression coefficients with the maximum likelihood function to identify the strength and direction of significant risk factors for overpayment. I also compute a 95% confidence intervals for the slopes / odds ratios. TLDR: I'm 95% sure that the odds a location is overpaying versus the city average are between ___ and ___ greater than the odds for other locations are overpaying
 
-# DATA EVALUATIONS
+## DATA EVALUATIONS
 
 # DISCUSSION
-
-# WEB APP
-
-* I integrate all this data to educate Chicagoans on the value of their dollar across the city.
 
 # REFERENCES
 
