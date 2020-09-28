@@ -6,15 +6,15 @@
 
 # WHAT IS IT?
 
-* The Corner Store Index uses the price of a basket of goods to compare the values of ones dollar across the city.  Its calculations show how social and environmental factors relate to neighborhood purchasing power.  It's a look at the city's extremes.
+* I gather price data from corner stores, census reports and land records to find compare the value of ones dollar across the city.  My calculations show how social and environmental factors relate to neighborhood purchasing power. 
 
-# WHY AM I DOING THIS?
+# WHY AM I DOING THIS? SHORTCOMINGS?
 
-* The timeliness and quality of the Corner Store Index could be a helpful supplement to official city figures.
+* The timeliness and quality of the Corner Store Index could be a helpful supplement to official city figures.  Understanding this data is local affair, decided neighborhood by neighborhood. However, this analysis does not capture everything. The quality of the data and number crunching varies.  The indirect effects of long-term neighborhood projects are also tough to analyze, but other methods for measuring neighborhood purchasing power are worringly subjective. 
 
 # WEB APP
 
-* Develop a color gradient map with a searchable tile-based interface of price data sorted by luminance, from least to most bright (to represent the value of a dollar across the city) 
+* A color gradient map with a searchable tile-based interface of price data sorted by luminance, from least to most bright (to represent the value of a dollar across the city) 
 
 # DATA COLLECTION
 
