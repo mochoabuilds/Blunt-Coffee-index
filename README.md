@@ -2,15 +2,15 @@
 
 # INTRODUCTION
 
-* Chicago may be a single market, but its products do not have single prices. Some price differences are inevitable.  Goods downtown will cost more than ones in neighborhoods on the city's edge. My question is: how much do prices vary across the city? 
+* Chicago may be a single market, but its products do not have single prices. Some price differences are inevitable.  Goods downtown will cost more than ones in neighborhoods on the city's edge. My question is: how much do prices vary across the city? And is the corner store index a good guide for understanding city purchasing power?
 
 # WHAT IS IT?
 
-* I gather price data from corner stores, census reports and land records to find compare the value of ones dollar across the city.  My calculations show how social and environmental factors relate to neighborhood purchasing power. 
+* I gather price data from corner stores, census reports and land records to find compare the value of ones dollar across the city.  My calculations show how social and environmental factors relate to neighborhood purchasing power. The corner store index is a simple illustation of purchasing-power-parity across Chicago, which shows whether goods are cheaper or steeper than you would expect given a neighborhood's level of income per person, etc.
 
 # WHY AM I DOING THIS? SHORTCOMINGS?
 
-* The timeliness and quality of the Corner Store Index could be a helpful supplement to official city figures.  Understanding this data is local affair, decided neighborhood by neighborhood. However, this analysis does not capture everything. The quality of the data and number crunching varies.  The indirect effects of long-term neighborhood projects are also tough to analyze, but other methods for measuring neighborhood purchasing power are worringly subjective. 
+* The timeliness and quality of the Corner Store Index could be a helpful supplement to official city figures.  Understanding this data is local affair, decided neighborhood by neighborhood. However, this analysis does not capture everything. The quality of the data and number crunching varies.  The indirect effects of long-term neighborhood projects are also tough to analyze, but other methods for measuring neighborhood purchasing power are worringly subjective. I believe the corner store index could have some anchoring power over the long run.
 
 # WEB APP
 
@@ -22,10 +22,10 @@
 
 # DATA PREP
 
-* STEP 1 RawData - unformatted spreadsheet with hand collected prices 
-* STEP 2 TidyDataSet - script takes raw data as input and produces tidy data as output
-* STEP 3 Description - describe each variable and values in tidy data set
-* STEP 4 ReproducibilityRecipe - set up calculations in a way that is easy for reproducibility
+* STEP 1 RawData >> unformatted spreadsheet with hand collected prices 
+* STEP 2 TidyDataSet >> script takes raw data as input and produces tidy data as output
+* STEP 3 Description >> describe each variable and values in tidy data set
+* STEP 4 ReproducibilityRecipe >> set up calculations in a way that is easy for reproducibility
 
 # CALCULATIONS
 
