@@ -1,5 +1,9 @@
 *** WORKING PAPER ***
 
+# ABSTRACT
+
+* Chicago has a long history with its corner stores.  When neighborhoods decline, many corner stores are unplugged from the community.  These neighborhoods find new costs in the form of social, environmental and economic debts.  This field research quantifies these costs by estimating the effect of corner store closures on local purchasing power. My goal is to show how purchasing power varies termendously across the city.
+
 # INTRODUCTION
 
 * Chicago may be a single market, but its products do not have single prices. Some price differences are inevitable.  Goods downtown will cost more than ones in neighborhoods on the city's edge. My question is: how much do prices vary across the city? And is the corner store index a good guide for understanding city purchasing power?
