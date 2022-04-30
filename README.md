@@ -1,22 +1,25 @@
+CORNER STORE INDEX 
+
+by Michael Valentino Ochoa
+
+
 *** WORKING PAPER ***
 
-# ABSTRACT
+# WELCOME
 
-* Chicago has a long history with its corner stores.  If a neighborhoods decline, oftne its corner stores are unplugged from the community.  These neighborhoods find new costs in the form of social, environmental and economic debts.  This field research aims to quantify these costs by estimating the effect of corner store closures on local purchasing power. My goal is to showcase how purchasing power varies termendously across the city.
+* Chicago has a long history with its corner stores.  Often they are reflection of a neighborhood's social, economic and environmental health. This field research aims to quantify the costs of losing a corner store by estimating the effect its closures have on neighborhood purchasing power. My goal is to showcase how purchasing power varies termendously across the city. This research was motivated when I saw the value of my dollar vaporize traveling just six blocks across the city.
 
-# INTRODUCTION
+# WHY AM I DOING THIS?  WORRIES OF MINE?
 
-* Chicago may be a single market, but its products do not have single prices. Some price differences are inevitable.  Goods downtown cost more than neighborhoods tucked miles away from the city center. My question is: how much do prices vary across the city? And is the corner store index a good guide for understanding city purchasing power?
+* Chicago may be a single market, but its products do not have single prices. Some price differences are inevitable.  Goods downtown cost more than neighborhoods tucked miles away from the city center. My question is: how much do prices vary across the city? And is the corner store index a good guide for understanding neighborhood purchasing power?
+* 
+* The timeliness and quality of the Corner Store Index could be a helpful supplement to official city figures.  Understanding this data is a local affair, decided neighborhood by neighborhood. Unfortunately this index will not capture everything. The quality of the field data collection and number crunching will vary.  The indirect effects of long-term neighborhood construction projects are also tough to analyze, yet other methods for measuring neighborhood purchasing power are at present worringly subjective. I believe the corner store index could have some anchoring power over the historical economic long run.  That's what motivates me.
 
-# WHAT IS IT?
+# WHAT AM I DOING?
 
-* Field work has me gathering price data from corner stores, census reports and land records to compare the value of ones dollar across the city.  My calculations show how social and environmental factors relate to neighborhood purchasing power. The corner store index is a simple illustation of purchasing-power-parity across Chicago, which shows whether goods are cheaper or more expensive than you would expect given a neighborhood's level of income per person, other variables, etc.
+* My field work has me gathering price data from corner stores, census reports and land records to compare the value of ones dollar across the city.  This corner store index is a simple illustation of purchasing-power-parity across Chicago, which shows whether goods are cheaper or more expensive than you would expect given a neighborhood's level of income per person, other variables, etc.
 
-# WHY AM I DOING THIS? SHORTCOMINGS?
-
-* The timeliness and quality of the Corner Store Index could be a helpful supplement to official city figures.  Understanding this data is a local affair, decided neighborhood by neighborhood. Unfortunately this analysis does not capture everything. The quality of the field data collection and number crunching does vary.  The indirect effects of long-term neighborhood construction projects are also tough to analyze, but other methods for measuring neighborhood purchasing power are worringly subjective. I believe the corner store index could have some anchoring power over the historical economic long run.
-
-# DATA STORYTELLING
+# DATA STORYTELLING / UX
 
 * Hand-drawn data illustrations dropped into a flowing dynamic web-application.
 
